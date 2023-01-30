@@ -1,4 +1,29 @@
-.header_form {
-    background-color: blue;
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 50%;
+}
+
+
+.button {
+    background-color: #042e5c;
+    color: white;
     width: 100%;
+    padding: 10px;
+}
+
+.input{
+    margin: 5px 0px;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.message {
+    height: 150px;
+    border: none;
+    margin: 5px 0px;
 }
