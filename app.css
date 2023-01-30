@@ -1,3 +1,9 @@
+body {
+    display: flex;
+    flex-direction: column;
+
+}
+
 .form{
     display: flex;
     flex-direction: column;
@@ -32,6 +38,8 @@
 h1,h3 {
     text-decoration: underline solid black;
     text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
 }
 
 p {
@@ -41,4 +49,21 @@ p {
     color: #042e5c;
     font-weight: bold;
 }
+
+.musclor img {
+    display: flex;
+   
+    
+    
+    
+   
+}
+
+.musclor {
+    width: 250px;
+    margin-left: 45%;
+   
+}
+
+
 
